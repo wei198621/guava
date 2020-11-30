@@ -24,7 +24,7 @@ public class ReflectTest extends TestCase{
         System.out.println("stringList type is " + stringList.getClass());
         //判断list的类型是否是同一个类型
         System.out.println(stringList.getClass().isAssignableFrom(intList.getClass()));
-        
+        System.out.println("sssss");
         
         TypeToken<ArrayList<String>> typeToken = new TypeToken<ArrayList<String>>() {};
         TypeToken<?> genericTypeToken = typeToken.resolveType(ArrayList.class.getTypeParameters()[0]);
